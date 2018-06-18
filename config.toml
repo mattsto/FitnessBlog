@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Be fit girl"
 theme = "hugo-theme-massively-master"
+DefaultContentLanguage = "pl"
 
 #[params]
   # set below parameter to define a favicon
@@ -20,6 +21,6 @@ theme = "hugo-theme-massively-master"
 #[languages]
 #[languages.en]
 #  languageName = "English"
-#[languages.es]
-#  languageName = "Español"
-#  title = "Massively - Versión Español"
+#[languages.pl]
+#  languageName = "Polski"
+

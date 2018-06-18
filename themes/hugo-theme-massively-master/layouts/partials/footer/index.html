@@ -26,7 +26,7 @@
         {{ with $data.contactinfo.address }}
         <section class="alt">
             <h3>{{ i18n "CONTACT_ADDRESS" . }}</h3>
-            <p>
+            <p style="margin-left: 30px;">
                 {{ range $i, $e := . }}
                     {{ if $i }} <br/> {{ end }} {{ .line }}
                 {{ end }}
@@ -36,19 +36,19 @@
         {{ with $data.contactinfo.phone }}
         <section>
             <h3>{{ i18n "CONTACT_PHONE" . }}</h3>
-            <p><a href="tel:{{ . }}">{{ . }}</a></p>
+            <p style="margin-left: 30px;"><a href="tel:{{ . }}">{{ . }}</a></p>
         </section>
         {{ end }}
         {{ with $data.contactinfo.email }}
         <section>
             <h3>{{ i18n "CONTACT_EMAIL" . }}</h3>
-            <p><a href="mailto:{{ . }}">{{ . }}</a></p>
+            <p style="margin-left: 30px;"><a href="mailto:{{ . }}">{{ . }}</a></p>
         </section>
         {{ end }}
         {{ with $data.social }}
         <section>
             <h3>{{ i18n "CONTACT_SOCIAL" . }}</h3>
-            <ul class="icons alt">
+            <ul class="icons alt" style="margin-left: 30px;">
                 {{ with .twitter}}
                 <li><a href="{{ . }}" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
                 {{ end }}
