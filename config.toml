@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Be fit girl"
+theme = "hugo-theme-massively-master"
+
+#[params]
+  # set below parameter to define a favicon
+  # favicon = "favicon.ico"
+
+# Below parameters can be set to override default post settings
+[params.posts]
+#     foldername = "post"
+#     pagesize = "6"
+     featuredpost = "false"
+
+[params.settings]
+#    googleanalytics = "UA-113904582-3"
+    disqus = "hugo-massively"
+
+#[languages]
+#[languages.en]
+#  languageName = "English"
+#[languages.es]
+#  languageName = "Español"
+#  title = "Massively - Versión Español"
