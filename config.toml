@@ -1,6 +1,6 @@
-baseURL = "http://befitgirl.netlify.com"
+baseURL = "http://www.freakyfitgirl.pl"
 languageCode = "en-us"
-title = "Be fit girl"
+title = "Freaky Fit Girl"
 theme = "hugo-theme-massively-master"
 DefaultContentLanguage = "pl"
 
