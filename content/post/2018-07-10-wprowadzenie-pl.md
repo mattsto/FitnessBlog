@@ -1,6 +1,6 @@
 ---
 title: WPROWADZENIE
-author: Julia
+author: J.
 date: '2018-07-10T14:40:48+01:00'
 description: >-
   "Boimy się zmian dlatego, że ciężko nam rozstać się z tym, z czym umiemy już
