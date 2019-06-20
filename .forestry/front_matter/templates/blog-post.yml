@@ -23,5 +23,3 @@ fields:
     schema:
       format: markdown
   label: Body
-pages:
-- content/post/test.md
