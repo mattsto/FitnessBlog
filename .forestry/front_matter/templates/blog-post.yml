@@ -14,12 +14,3 @@ fields:
 - type: text
   name: description
   label: description
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Body
